@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang=en>
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="How I started all this   For long, I have always dreamed of making some kind of “visible” product - such as web or mobile app. By progamming. For most of the times I used programming to develop better">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How-I-made-my-First-Blog-with-Hexo">
+<meta property="og:url" content="http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/index.html">
+<meta property="og:site_name" content="Coder-mina&#39;s Dev Blog">
+<meta property="og:description" content="How I started all this   For long, I have always dreamed of making some kind of “visible” product - such as web or mobile app. By progamming. For most of the times I used programming to develop better">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-12T13:15:20.412Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How-I-made-my-First-Blog-with-Hexo">
+<meta name="twitter:description" content="How I started all this   For long, I have always dreamed of making some kind of “visible” product - such as web or mobile app. By progamming. For most of the times I used programming to develop better">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>How-I-made-my-First-Blog-with-Hexo</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2019/10/12/first-essay/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&text=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&is_video=false&description=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How-I-made-my-First-Blog-with-Hexo&body=Check out this article: http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&name=How-I-made-my-First-Blog-with-Hexo&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#How-I-started-all-this"><span class="toc-number">1.</span> <span class="toc-text">How I started all this</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#What-is-Hexo"><span class="toc-number">2.</span> <span class="toc-text">What is Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-steps"><span class="toc-number">3.</span> <span class="toc-text">How-to steps</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Write-Blog-content"><span class="toc-number">3.1.</span> <span class="toc-text">Write Blog content</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub-Page-Deployment"><span class="toc-number">3.2.</span> <span class="toc-text">GitHub Page Deployment</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Comments"><span class="toc-number">4.</span> <span class="toc-text">Comments</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        How-I-made-my-First-Blog-with-Hexo
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Coder-mina's Dev Blog</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-10-12T21:39:41.000Z" itemprop="datePublished">2019-10-12</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h1 id="How-I-started-all-this"><a href="#How-I-started-all-this" class="headerlink" title="How I started all this"></a>How I started all this</h1><p>   For long, I have always dreamed of making some kind of “visible” product - such as web or mobile app. By progamming. For most of the times I used programming to develop better algorithms or behind-the-scene systems. I guess lack of experience with web-front is why I always had a thirst for that. Busy life, my lazziness, and groundless fear that learning front-end would be hard all combined, made me keep delaying to convert my will into action.<br>   But today, finally I took action and succeeded in creating my personal blog! From the process, I realized that there is no need to be frightened by the idea that you don’t know where to start. I asked my friend who has an experience of making her personal website for advice, and learned that there are largely two frameworks for website building - Jekyll &amp; Hexo. I had literally no idea what those were, so I started googling. I analyzed their pros and cons and decided to use Hexo to create my website. I just googled for guidelines various people posted about how they created their blog using Hexo, but later on, I realized that following the [Official Hexo documentation]](<a href="https://hexo.io/docs/" target="_blank" rel="noopener">https://hexo.io/docs/</a>)  is the <strong>clearest</strong> solution.<br>   Here I explain the fundamentals and how-to guidelines that I have learned from my small development experience.</p>
+<h1 id="What-is-Hexo"><a href="#What-is-Hexo" class="headerlink" title="What is Hexo"></a>What is Hexo</h1><p>   There are many types of <strong>static site generators</strong>. Most famous ones are Jekyll - based on Ruby and Hexo - based on Node.js. Servers of static website only sends already-saved html files to clients when requested - there is no dynamic interaction taking place. Since static website doesn’t need dynamic server side processing, its is super fast. Usually blogs are for displaying contents, it can be easily created as static website. </p>
+<ul>
+<li><p>Jekyll</p>
+<ul>
+<li>slow build time <ul>
+<li>“as you website content grows, the build process becomes significantly slower (this is the major weakness of Jekyll)”  - from <a href="https://www.techiediaries.com/jekyll-hugo-hexo/" target="_blank" rel="noopener">https://www.techiediaries.com/jekyll-hugo-hexo/</a></li>
+<li>(btw it says that it supports incremental build experimentally) </li>
+</ul>
+</li>
+<li>Ruby based</li>
+<li>large community</li>
+</ul>
+</li>
+<li><p>Hexo</p>
+<ul>
+<li>fast build time (hmm…really???)</li>
+<li>Node.js based</li>
+<li>small community (mostly China)    </li>
+</ul>
+</li>
+</ul>
+<h1 id="How-to-steps"><a href="#How-to-steps" class="headerlink" title="How-to steps"></a>How-to steps</h1><h2 id="Write-Blog-content"><a href="#Write-Blog-content" class="headerlink" title="Write Blog content"></a>Write Blog content</h2><ol>
+<li>Setup</li>
+</ol>
+<ul>
+<li>Follow the instructions on <a href="https://hexo.io/docs/" target="_blank" rel="noopener">Official Hexo documentation</a> to install node.js, hexo, and git (if you don’t have them installed already)</li>
+</ul>
+<ol start="2">
+<li>Create Hexo directory<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init my_blog // create and initialize hexo in target folder, my_blog</span><br><span class="line">$ cd my_blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ul>
+<li>Also, initialize this as git repo, since we will push this into git repo.</li>
+</ul>
+<ol start="3">
+<li>write contents</li>
+</ol>
+<ul>
+<li>_config.yml: configure settings ex) theme</li>
+<li>source: _posts: write your blog content</li>
+<li>themes: customize your theme -&gt; there are lots of beautiful themes <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br><span class="line">// [layout] is one of post, page, draft</span><br><span class="line">// create new content</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h2 id="GitHub-Page-Deployment"><a href="#GitHub-Page-Deployment" class="headerlink" title="GitHub Page Deployment"></a>GitHub Page Deployment</h2><ul>
+<li><p>Follow the official instruction here: <a href="https://hexo.io/docs/github-pages" target="_blank" rel="noopener">https://hexo.io/docs/github-pages</a></p>
+</li>
+<li><p>Read <a href="https://maologue.com/Auto-deploy-Hexo-with-Travis-CI/#Check-your-HEXO-repo-on-Travis" target="_blank" rel="noopener">this</a> to understand how Travis performs automatic build &amp; website deployment.</p>
+</li>
+<li><p>Here are some things you should know but not mentioned in the instruction above.</p>
+<ul>
+<li><p>[user_name].github.io must be built from the master branch. Therefore you should modify .travis.yml written in the official instruction a little bit to make it work properly. This default .travis.yml detects changes in <code>master</code> branch and if there is change, Travis build Hexo, and Travis deploys the build result into <code>gh-pages</code> branch which is used to make webpage. But, we cannot make the github page built from <code>gh-pages</code>.Thus use the configuration below!</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">sudo: false</span><br><span class="line">language: node_js</span><br><span class="line">node_js:</span><br><span class="line">  - 10 # use nodejs v10 LTS</span><br><span class="line">cache: npm</span><br><span class="line">branches:</span><br><span class="line">  only:</span><br><span class="line">    - blog-source # build blog-source branch only</span><br><span class="line">script:</span><br><span class="line">  - hexo generate # generate static files</span><br><span class="line">deploy:</span><br><span class="line">  provider: pages</span><br><span class="line">  skip-cleanup: true</span><br><span class="line">  github-token: $GH_TOKEN</span><br><span class="line">  keep-history: true</span><br><span class="line">  on:</span><br><span class="line">    branch: blog-source</span><br><span class="line">  target_branch: master # if not mentioned, default is gh-pages</span><br><span class="line">  local-dir: public</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>You might get confused because there are both travis-ci.com &amp; travis-ci.org. Originally .com was for private repos, and .org was for public repos but Travis CI is currently migrating the .org into .com. So, you should only use .com.</p>
+</li>
+<li><p>If you want to create github blog inside github organization -&gt; create machine github account to generate token to use for Travis. (token can only be created per users not organizations..)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="Comments"><a href="#Comments" class="headerlink" title="Comments"></a>Comments</h1><ul>
+<li>Follow the official documentation!</li>
+<li>Hexo has quite some stuff (linking Travis to your repo) to do to configure auto-deployment. </li>
+<li>In the near future, I will try out Jekyll as well, and see which is more convenient.</li>
+</ul>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#How-I-started-all-this"><span class="toc-number">1.</span> <span class="toc-text">How I started all this</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#What-is-Hexo"><span class="toc-number">2.</span> <span class="toc-text">What is Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-steps"><span class="toc-number">3.</span> <span class="toc-text">How-to steps</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Write-Blog-content"><span class="toc-number">3.1.</span> <span class="toc-text">Write Blog content</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub-Page-Deployment"><span class="toc-number">3.2.</span> <span class="toc-text">GitHub Page Deployment</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Comments"><span class="toc-number">4.</span> <span class="toc-text">Comments</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&text=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&is_video=false&description=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=How-I-made-my-First-Blog-with-Hexo&body=Check out this article: http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&title=How-I-made-my-First-Blog-with-Hexo"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2019/10/12/How-I-made-my-First-Blog-with-Hexo/&name=How-I-made-my-First-Blog-with-Hexo&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 Mina Kim
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="/projects_url">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<!-- clipboard -->
+
+  <script src="/lib/clipboard/clipboard.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight .code pre").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>
