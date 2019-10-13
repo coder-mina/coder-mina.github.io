@@ -3,7 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Coder-mina's Dev Blog
+title: Think, Write and Grow
+fontsize: 10
 subtitle:
 description:
 keywords:
@@ -74,7 +75,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: cactus
+theme: clean-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

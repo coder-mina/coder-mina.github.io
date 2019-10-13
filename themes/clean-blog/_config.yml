@@ -1,0 +1,50 @@
+# Header
+menu:
+  Home: /
+  About: /about
+  Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  Github:
+    url: https://github.com/coder-mina/
+    icon: github
+  LinkedIn:
+    url: https://www.linkedin.com/in/min-a-kim-312174171/
+    icon: linkedin
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: coder-mina's dev blog
+
+# URL of the Home page image
+index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname:
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon:
+
+# Social Accounts
+twitter_url:
+twitter_handle:
+facebook_url: 
+github_url: https://github.com/coder-mina/
+gitlab_url:
+linkedin_url: https://www.linkedin.com/in/min-a-kim-312174171/
+mailto:
